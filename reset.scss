@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+}
+body{
+  font-family:Montserrat,sans-serif;
+}
+@mixin cr {
+  width: 394px;
+  height: 75px;
+  border-radius: 20px;
+  background: linear-gradient(325.82deg, #391C4D  2.12%, #211f4b 96.88%);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.045em;
+  border: 3px solid  #FB28D7;
+  color: #FFFFFF;
+
+}
+@mixin ani{
+  position: relative;
+  border: 3px solid  #FB28D7;
+  width: 77.07px;
+  height: 34px;
+  border-radius: 11.3333px;
+  font-weight: 400;
+  font-size: 15.1111px;
+  text-align: center;
+  letter-spacing: 0.045em;
+  color: #FFFFFF;
+  background: linear-gradient(325.82deg, #391C4D  2.12%, #211f4b 96.88%);
+
+
+}
